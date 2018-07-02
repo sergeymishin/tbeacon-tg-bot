@@ -1,0 +1,18 @@
+{
+  "name": "tbeacon-bot",
+  "version": "0.1.0",
+  "description": "Telegram bot for tBeacon users",
+  "main": "index.js",
+  "scripts": {
+    "start": "babel-node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "sergeymishin",
+  "license": "MIT",
+  "dependencies": {
+    "node-telegram-bot-api": "^0.30.0"
+  },
+  "devDependencies": {
+    "babel-watch": "^2.0.7"
+  }
+}
